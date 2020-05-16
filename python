@@ -1,0 +1,13 @@
+#python XOR swapping
+
+a ,b = 20, 50
+
+#traditional way python swapping
+
+a, b = b, a
+
+#Alternate way (Bitwise XOR)
+
+a ^= b
+b ^= a
+a ^= b
